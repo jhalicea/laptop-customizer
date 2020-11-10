@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 // in both URLs and html attributes
 import slugify from 'slugify';
 
-import './App.css';
+import '../App.css';
 
 // This object will allow us to
 // easily convert numbers into US dollar values
