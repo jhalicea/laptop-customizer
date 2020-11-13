@@ -12,7 +12,7 @@ class Features extends React.Component {
           <h3>{feature}</h3>
           
         </legend>
-        <Options usCurrencyFormat={this.props.usCurrencyFormat} 
+        <Options key={featureHash} usCurrencyFormat={this.props.usCurrencyFormat} 
           state={this.props.state} 
           feature={feature} 
           features={FEATURES}
