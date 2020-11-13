@@ -11,6 +11,9 @@
 # production
 /build
 
+#Unrefactored Original Code
+/src/Old
+
 # misc
 .DS_Store
 .env.local

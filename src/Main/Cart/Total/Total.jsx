@@ -1,11 +1,6 @@
 import React from 'react';
 
-
-
-
 class Total extends React.Component {
-
-
     render(props) {
 
     const total = Object.keys(this.props.state.selected).reduce(

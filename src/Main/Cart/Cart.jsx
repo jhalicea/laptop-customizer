@@ -1,11 +1,8 @@
 import React from 'react';
 import Total from './Total/Total';
 
-
 class Cart extends React.Component {
-
     render(props){
-
         const summary = Object.keys(this.props.state.selected).map((feature, idx) => {
             const featureHash = feature + '-' + idx;
             const selectedOption = this.props.state.selected[feature];
